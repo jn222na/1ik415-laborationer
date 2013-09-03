@@ -1,0 +1,14 @@
+#header{
+    height:300px;
+    width:100%;
+}
+#textruta{
+    height:300px;
+    width:100%;
+    float:left;
+}
+#textruta2{
+    height:300px;
+    width:100%;
+    float:right;
+}
