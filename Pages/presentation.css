@@ -5,12 +5,20 @@
     margin-right:50%;
 }
 #textruta{
-    height:300px;
+    height:100px;
     width:100%;
     float:left;
 }
 #textruta2{
-    height:300px;
+    height:100px;
     width:100%;
-    float:right;
+    float:left;
+}
+.bilderborder{     /* För att ta bort länk färger */
+    
+    
+}
+.h1{
+    font-family:arial,verdana,sans-serif;
+    font-size:25px;
 }
