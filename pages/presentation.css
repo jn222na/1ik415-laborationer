@@ -4,19 +4,15 @@
     margin-left:50%;
     margin-right:50%;
 }
-#textruta{
+
+.bilderborder /* För att ta bort länk färger */
+{     
+
+}
+#textbox{
     height:100px;
     width:100%;
     float:left;
-}
-#textruta2{
-    height:100px;
-    width:100%;
-    float:left;
-}
-.bilderborder{     /* För att ta bort länk färger */
-    
-    
 }
 .h1{
     font-family:arial,verdana,sans-serif;
