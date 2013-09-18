@@ -13,7 +13,7 @@
 </div>    
     
     <!-- Slut textruta -->
-<div id="textbox">
+
     <ul>Här kommer jag fylla på med information under kursens gång</ul>
 
     <ul>
@@ -29,8 +29,28 @@
             <li> Hemtele: </li>
         </ul>
         
-        
-</div>
+
+<fieldset style="width:150px">
+	<legend>Fråga</legend>   
+ <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+      Ärendetyp:<select name="Rullgarding">
+			<option value="Fråga_1" selected>Fråga_1</option>
+            <option value="Fråga_2">Fråga_2 </option>		            
+            <option value="Fråga_3">Fråga_3 </option>
+	</select><br><br>
+  Rubrik: <input type="text"><br><br>
+	  Fråga:<textarea rows="4" cols="15">Testelitest</textarea><br>
+			
+
+</fieldset>
+<fieldset style="width:200px">
+	<legend>Information om dig</legend>
+    		<input type="checkbox" name="g1[]" value="Kontakta mig via telefon" />Kontakta mig via telefon<br>
+            <input type="checkbox" name="g1[]" value="Kontakta mig via mail" />Kontakta mig via mail<br>
+</fieldset> 
+		<button type="submit">Skicka</button>
+      </form>  
+
 
 </body>
 </html>
