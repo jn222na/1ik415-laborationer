@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+
+}
+#header {
+	height: 100px;
+	width: 100%;
+	text-align:center;
+	background-color: #207BCC;	
+}
+
+#container {
+	height: 960px;
+	width: 1200px;
+	margin: 0px auto;
+}
+
+#content {
+	height:600px;
+	width:auto;
+    
+}
+#navigation {
+	height:900px;
+	width:auto;
+	float:left;
+	background-color: #FF9718;  
+}
+#navigation2{
+	height:500px;
+	width:100px;
+}
+#footer {
+	height:50px;
+	width:100%;  
+}
+
+
+.meny {
+	padding: 15px 20px;
+  list-style-type: none;
+  list-style:none;
+  
+}
+/* Sätter färg på bakgrunden till knappen samt border  */
+.meny li {
+  float: left;
+  border: 1px solid #333;
+  background: #4479BA;
+  color: #FFF;
+  
+}
+/*Plockar bort bl.a underline på länkarna samt ge en schysst delay vid hover */
+.meny li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 15px;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;  
+}
+/* Ser till att rutan som man rör med musen lyser upp */
+.meny li a:hover, meny li:focus{
+    background: #356094;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+a:link    {color:black;}
+a:visited {color:#000;}
+a:hover   {color:black;}
+a:active  {color:yellow;}
+
