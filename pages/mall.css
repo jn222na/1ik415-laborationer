@@ -96,3 +96,15 @@ background-image:url('../pics/123.jpg');
 #link li a{
     text-decoration:none;
 }
+#link2 {
+    padding: 10px 15px
+}
+#link2 li{
+    display:block;
+    font-size:15px;
+
+}
+
+#link2 li a{
+    text-decoration:none;
+}
