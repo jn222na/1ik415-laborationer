@@ -23,10 +23,10 @@ body{
     
 }
 #navigation {
-	height:900px;
+	height:1200px;
 	width:auto;
 	float:left;
-	background-color: #FF9718;  
+	background-color: #cc7813;  
 }
 #navigation2{
 	height:500px;
@@ -78,4 +78,22 @@ a:link    {color:black;}
 a:visited {color:#000;}
 a:hover   {color:black;}
 a:active  {color:yellow;}
+body {
+Font-family: Calibri, Verdana, Ariel, sans-serif;
+}
+table{
+font-size:20px;
+background-image:url('../pics/123.jpg');
+}
+#link {
+    padding: 10px 15px
+}
+#link li{
+    display:block;
+    font-size:15px;
 
+}
+
+#link li a{
+    text-decoration:none;
+}
