@@ -59,7 +59,8 @@ body{
   padding: 10px 15px;
   -webkit-transition-duration: 0.2s;
   -moz-transition-duration: 0.2s;
-  transition-duration: 0.2s;  
+  transition-duration: 0.2s; 
+  
 }
 /* Ser till att rutan som man rör med musen lyser upp */
 .meny li a:hover, meny li:focus{
@@ -67,6 +68,12 @@ body{
     border: solid 1px #2A4E77;
     text-decoration: none;
 }
+
+#active a{
+display: block;
+background-color: #445cba;
+}
+
 a:link    {color:black;}
 a:visited {color:#000;}
 a:hover   {color:black;}

@@ -7,7 +7,7 @@
 <link href="mall.css" rel="stylesheet" type="text/css">
 </head>
 <body> <!-- Innehållet på hemsidan -->
-
+<div id="container">
 <div id="header">      
         <h1>Laborationer</h1>
     
@@ -16,18 +16,31 @@
 
     <h2>Startsida</h2>
     
-
-<div id="textbox">
     <ul>
     		Här kommer information om de olika laborationerna jag kommer utföra
     </ul>
 
-    <ul>
-        <li><a href="../index.html">Start<br></a></li>
-        <li><a href="kontakt.html">Kontakt<br></a></li>
-        <li><a href="laboration.html">Laboration<br></a></li>
-        <li><a href="presentation.html">Presentation</a></li>
-    </ul>
+<div id="navigation" >
+		<h2>Startsida</h2>
+  	  Här kommer jag fylla på med information under kursens gång
+      <div id="navigation2">
+	<nav>
+    	<ul class="meny">
+      	    <li><a href="../index.html">Start<br></a></li>
+		</ul>
+        <ul class="meny"> 
+       	    <li><a href="kontakt.html">Kontakt<br></a></li>
+       </ul>
+       <ul class="meny">
+        	<li id="active"><a href="laboration.html">Laboration<br></a></li>
+       </ul>
+       <ul class="meny">
+        	<li><a href="presentation.html">Presentation</a></li>
+       </ul>
+        
+	</nav>
+    </div>
+</div>
 
     <h2>Laborationer</h2>
     <ul>
@@ -132,7 +145,8 @@
     www/html/pages/top.html
 
  </dl> 
-
-
+<div id="footer">
+</div>
+</div> <!-- Slut Container -->
 </body>
 </html>
