@@ -69,6 +69,8 @@ body{
 	border-radius: 25px;
 	margin-right:10px;
 	text-align:center;
+	margin:auto;
+	margin-right:5px;
 }
 #navigation2{
 	height:500px;
@@ -126,7 +128,7 @@ font-size:20px;
 background-image:url('../pics/123.jpg');
 }
 .link {
-    padding: 10px 15px
+    padding: 10px 15px;
 }
 .link li{
     display:block;
@@ -137,7 +139,15 @@ background-image:url('../pics/123.jpg');
 .link li a{
     text-decoration:none;
 }
-.li{
+.miniatyr{
 	float:left;
-	margin-right:10px;
+	margin-right:5px;
+}
+.stil {
+	width:400px;
+	margin-left:270px;
+	border-bottom-style:groove;
+	border-color:#CCC;
+	margin-top:20px;
+	
 }
