@@ -15,9 +15,12 @@ body{
 	text-align:center;
 	
 }
-@charset "utf-8";
-/* CSS Document */
-#BG {
+#lorem{
+	height:900px;
+	width:auto;
+	
+}
+#bg {
 	width: 100%;
 	position: fixed;
 	z-index: -100;
@@ -69,12 +72,10 @@ body{
 	border-radius: 25px;
 	margin-right:10px;
 	text-align:center;
-	margin:auto;
-	margin-right:5px;
 }
 #navigation2{
 	height:500px;
-	width:100px;
+	width:200px;
 }
 #footer {
 	height:50px;
@@ -125,7 +126,6 @@ a:active  {color:yellow;}
 
 table{
 font-size:20px;
-background-image:url('../pics/123.jpg');
 }
 .link {
     padding: 10px 15px;
@@ -143,11 +143,21 @@ background-image:url('../pics/123.jpg');
 	float:left;
 	margin-right:5px;
 }
+.miniatyrright{
+	float:right;
+	margin-left:5px;
+	
+}
 .stil {
 	width:400px;
 	margin-left:270px;
 	border-bottom-style:groove;
 	border-color:#CCC;
 	margin-top:20px;
-	
+}
+table,th,td{
+	padding:1px;
+	border: 1px solid #009;
+	border-style:groove;
+	background-color:#CCC;
 }
