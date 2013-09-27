@@ -2,20 +2,59 @@
 /* CSS Document */
 
 body{
+	   background-image:url("../pics/background.jpg");
+	background-image:
+	background-repeat:no-repeat;
+	Font-family: Calibri, Verdana, Ariel, sans-serif;
 
+}
+#header {
+	height:300px;
+	width: 1200px;
+	margin:auto;
+	text-align:center;
+	
+}
+@charset "utf-8";
+/* CSS Document */
+#BG {
+	width: 100%;
+	position: fixed;
+	z-index: -100;
+	left: 0px;
+	top: 0px;
 }
 #header {
 	height: 100px;
 	width: 100%;
 	text-align:center;
 	background-color: #207BCC;	
+	border: 1px solid;
+	border-radius: 25px; 
+	margin-bottom:10px;
 }
-
+#lankar{
+    height:1200px;
+    width 500px;
+    text-align:center;
+    float:right;
+    background-color: #cc7813;
+    border: 1px solid;
+	border-radius: 25px; 
+	padding:50px;
+}
+/*#mellan{
+    height:900px;
+    width:100px;
+    background:green;
+}*/
 #container {
 	height: 960px;
+    width:1200px;
     margin:auto;
-}
 
+}
+/* http://designshack.net/articles/css/inner-shadows-in-css-images-text-and-beyond/ */
 #content {
 	height:600px;
 	width:auto;
@@ -23,9 +62,13 @@ body{
 }
 #navigation {
 	height:1200px;
-	width:auto;
+	width:200px;
+	margin:auto;
 	float:left;
-	background-color: #cc7813;  
+    border: 1px solid;
+	border-radius: 25px;
+	margin-right:10px;
+	text-align:center;
 }
 #navigation2{
 	height:500px;
@@ -77,34 +120,24 @@ a:link    {color:black;}
 a:visited {color:#000;}
 a:hover   {color:black;}
 a:active  {color:yellow;}
-body {
-Font-family: Calibri, Verdana, Ariel, sans-serif;
-}
+
 table{
 font-size:20px;
 background-image:url('../pics/123.jpg');
 }
-#link {
+.link {
     padding: 10px 15px
 }
-#link li{
+.link li{
     display:block;
     font-size:15px;
 
 }
 
-#link li a{
+.link li a{
     text-decoration:none;
 }
-#link2 {
-    padding: 10px 15px
-}
-#link2 li{
-    display:block;
-    font-size:15px;
-
-}
-
-#link2 li a{
-    text-decoration:none;
+.li{
+	float:left;
+	margin-right:10px;
 }
