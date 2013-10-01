@@ -1,11 +1,19 @@
 @charset "utf-8";
 /* CSS Document */
-
+@media print{
 body{
 
 	Font-family: Calibri, Verdana, Ariel, sans-serif;
-
 }
+
+a {
+    text-decoration:none;
+}
+/* Tar bort Header Navigation samt länk menyer */
+#header,#navigation,#lankar{
+    display:none;
+}
+
 #header {
 	height:300px;
 	width: 1200px;
@@ -69,25 +77,23 @@ body{
 	border-radius: 25px;
 	margin-right:10px;
 	text-align:center;
-    cursor:url(../pics/hammare-gro.png),  crosshair;
 }
 
 #navigation2{
 	height:500px;
 	width:200px;
-	
 }
 #footer {
 	height:50px;
 	width:100%;  
 }
 
+
 .meny {
   padding: 15px 20px;  
   list-style-type: none;
   list-style:none;
   
-
 }
 /* Sätter färg på bakgrunden till knappen samt border  */
 .meny li {
@@ -95,29 +101,24 @@ body{
   border: 1px solid #333;
   background: #4479BA;
   color: #FFF;
-  background-image:url(../pics/brev-gro.png);
-  background-repeat:no-repeat;
-  background-position:right;
+  
+  
 }
 /*Plockar bort bl.a underline på länkarna samt ge en schysst delay vid hover */
 .meny li a {
   display: block;
   text-decoration: none;
-  padding: 10px 30px;
+  padding: 10px 15px;
   -webkit-transition-duration: 0.2s;
   -moz-transition-duration: 0.2s;
   transition-duration: 0.2s; 
-  
   
 }
 /* Ser till att rutan som man rör med musen lyser upp */
 .meny li a:hover, meny li:focus{
     background: #356094;
     border: solid 1px #2A4E77;
-    cursor:url(../pics/hammare.png),  crosshair;
-      background-image:url(../pics/brev.png);
-  background-repeat:no-repeat;
-  background-position:right;
+    
 }
 
 #active a{
@@ -164,7 +165,7 @@ background-image:url('../pics/123.jpg');
 }
 .stil2 {
 	width:400px;
-	margin-left:270px;
+	margin-left:60px;
 	border-bottom-style:groove;
 	border-color:#CCC;
 	margin-top:13px;
@@ -193,4 +194,5 @@ table,th,td{
     float:left;
     display:block;
     padding-right:10px;
+}
 }
