@@ -13,13 +13,7 @@ img, video {
 
 
 /*----------------------------------*/
-#header {
-	height:300px;
-	width: 1200px;
-	margin:auto;
-	text-align:center;
-	
-}
+
 #lorem{
 	height:900px;
 	width:auto;
@@ -70,7 +64,6 @@ img, video {
 #navigation {
 	height:1200px;
 	width:200px;
-	margin:auto;
 	float:left;
     border: 1px solid;
 	border-radius: 25px;
@@ -90,11 +83,9 @@ img, video {
 }
 
 .meny {
-  padding: 15px 20px;  
+    padding: 15px 20px;
   list-style-type: none;
   list-style:none;
-  
-
 }
 /* Sätter färg på bakgrunden till knappen samt border  */
 .meny li {
@@ -114,8 +105,7 @@ img, video {
   -webkit-transition-duration: 0.2s;
   -moz-transition-duration: 0.2s;
   transition-duration: 0.2s; 
-  
-  
+
 }
 /* Ser till att rutan som man rör med musen lyser upp */
 .meny li a:hover, meny li:focus{
@@ -171,7 +161,7 @@ background-image:url('../pics/123.jpg');
 }
 .stil2 {
 	width:400px;
-	margin-left:270px;
+	margin-left:70px;
 	border-bottom-style:groove;
 	border-color:#CCC;
 	margin-top:13px;
