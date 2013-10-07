@@ -6,6 +6,13 @@ body{
 	Font-family: Calibri, Verdana, Ariel, sans-serif;
 
 }
+/*Håller i flera delar utav koden */
+img, video {
+    max-width:100%;
+}
+
+
+/*----------------------------------*/
 #header {
 	height:300px;
 	width: 1200px;
