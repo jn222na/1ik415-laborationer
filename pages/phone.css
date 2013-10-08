@@ -54,7 +54,7 @@ float:none;
 }
 .meny li a{
     padding: 30px 40px;
-    font-size:17px;
+    font-size:15px;
 
 }
 .meny li a:hover, meny li:focus{
@@ -77,7 +77,5 @@ float:none;
 }
 table,th,td{
     font-size:20px;
-}
-#index_anch{
-    background-image:none;
+    width:200px;
 }
