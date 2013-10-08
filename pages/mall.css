@@ -2,7 +2,6 @@
 /* CSS Document */
 
 body{
-
 	Font-family: Calibri, Verdana, Ariel, sans-serif;
 
 }
@@ -16,7 +15,8 @@ img, video {
 
 #lorem{
 	height:900px;
-	width:auto;
+	width:auto;max-width:100%;
+	
 	
 }
 #bg {
@@ -24,7 +24,7 @@ img, video {
 	position: fixed;
 	z-index: -100;
 	left: 0px;
-	top: 0px;
+	top: 0px;max-width:100%;
 }
 #header {
 	height: 100px;
@@ -33,7 +33,7 @@ img, video {
 	background-color: #207BCC;	
 	border: 1px solid;
 	border-radius: 25px; 
-	margin-bottom:10px;
+	margin-bottom:10px;max-width:100%;
 }
 /*#mellan{
     height:900px;
@@ -43,13 +43,13 @@ img, video {
 #container {
 	height: 960px;
     width:1200px;
-    margin:auto;
+    margin:auto;max-width:100%;
 
 }
 /* http://designshack.net/articles/css/inner-shadows-in-css-images-text-and-beyond/ */
 #content {
 	height:600px;
-	width:auto;
+	width:auto;max-width:100%;
     
 }
 #lankar{
@@ -59,7 +59,7 @@ img, video {
     background-color: #cc7813;
     border: 1px solid;
 	border-radius: 25px; 
-	padding:50px;
+	padding:50px;max-width:100%;
 }
 #navigation {
 	height:1200px;
@@ -68,24 +68,24 @@ img, video {
     border: 1px solid;
 	border-radius: 25px;
 	margin-right:10px;
-	text-align:center;
+	text-align:center;max-width:100%;
     cursor:url(../pics/hammare-gro.png),  crosshair;
 }
 
 #navigation2{
 	height:500px;
-	width:200px;
+	width:200px;max-width:100%;
 	
 }
 #footer {
 	height:50px;
-	width:100%;  
+	width:100%;  max-width:100%;
 }
 
 .meny {
     padding: 15px 20px;
   list-style-type: none;
-  list-style:none;
+  list-style:none;max-width:100%;
 }
 /* Sätter färg på bakgrunden till knappen samt border  */
 .meny li {
@@ -95,7 +95,7 @@ img, video {
   color: #FFF;
   background-image:url(../pics/brev-gro.png);
   background-repeat:no-repeat;
-  background-position:right;
+  background-position:right;max-width:100%;
 }
 /*Plockar bort bl.a underline på länkarna samt ge en schysst delay vid hover */
 .meny li a {
@@ -104,7 +104,7 @@ img, video {
   padding: 10px 30px;
   -webkit-transition-duration: 0.2s;
   -moz-transition-duration: 0.2s;
-  transition-duration: 0.2s; 
+  transition-duration: 0.2s; max-width:100%;
 
 }
 /* Ser till att rutan som man rör med musen lyser upp */
@@ -114,12 +114,12 @@ img, video {
     cursor:url(../pics/hammare.png),  crosshair;
       background-image:url(../pics/brev.png);
   background-repeat:no-repeat;
-  background-position:right;
+  background-position:right;max-width:100%;
 }
 
 #active a{
 display: block;
-background-color: #445cba;
+background-color: #445cba;max-width:100%;
 }
 
 a:link    {color:black;}
@@ -129,27 +129,27 @@ a:active  {color:yellow;}
 
 table{
 font-size:20px;
-background-image:url('../pics/123.jpg');
+background-image:url('../pics/123.jpg');max-width:100%;
 }
 .link {
-    padding: 10px 15px;
+    padding: 10px 15px;max-width:100%;
 }
 .link li{
     display:block;
     font-size:15px;
-    padding-top:10px;
+    padding-top:10px;max-width:100%;
 }
 
 .link li a:hover{
-    text-decoration:none;
+    text-decoration:none;max-width:100%;
 }
 .miniatyr{
 	float:left;
-	margin-right:5px;
+	margin-right:5px;max-width:100%;
 }
 .miniatyrright{
 	float:right;
-	margin-left:5px;
+	margin-left:5px;max-width:100%;
 	
 }
 .stil {
@@ -157,20 +157,20 @@ background-image:url('../pics/123.jpg');
 	margin-left:60px;
 	border-bottom-style:groove;
 	border-color:#CCC;
-	margin-top:20px;
+	margin-top:20px;max-width:100%;
 }
 .stil2 {
 	width:400px;
 	margin-left:70px;
 	border-bottom-style:groove;
 	border-color:#CCC;
-	margin-top:13px;
+	margin-top:13px;max-width:100%;
 }
 table,th,td{
 	padding:1px;
 	border: 1px solid #009;
 	border-style:groove;
-	background-color:#CCC;
+	background-color:#CCC;max-width:100%;
 }
 .form{
     width:300px;
@@ -178,16 +178,19 @@ table,th,td{
 	margin-left:70px;
 	border-radius:30px;
 	border:2px solid;
-	border-color:#03F;
+	border-color:#03F;max-width:100%;
 }
 #uppgift{
     height:900px;
     width:756px;
-    margin-left:205px;
+    margin-left:205px;max-width:100%;
 }
 #uppgift label{
     width:140px;
     float:left;
     display:block;
-    padding-right:10px;
+    padding-right:10px;max-width:100%;
+}
+#uppgift h3:first-of-type {
+    padding-top:20px;
 }
