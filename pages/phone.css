@@ -5,19 +5,22 @@
     margin:0;
     width:480px;
     max-width:100%;
+    float:none;
 }
 #uppgift{
-    float:left;
+float:none;
     width:470px;
     margin:100px 10px;
 }
 #header{
+    float:none;
         width:450px;
     max-width: 200%; 
 
 }
 
 #navigation{
+    float:none;
     height:auto;
     width:170px;
     max-width:100%;
@@ -29,14 +32,12 @@
 	max-width:100%;
 }
 #lankar{
-    float:right;
+    float:none;
     height:auto;
     max-width:100%;
     width:170px;
     padding:0;
     text-decoration:none;
-    position:absolute;
-    margin-left:270px;
     
 }
 #lankar li{
