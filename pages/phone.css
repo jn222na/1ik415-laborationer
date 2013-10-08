@@ -1,5 +1,5 @@
 @charset "utf-8";
-@media only screen and (max-width:481px){
+
 
 #container{
     margin:0;
@@ -10,8 +10,6 @@
     float:left;
     width:470px;
     margin:100px 10px;
-    
-    
 }
 #header{
         width:450px;
@@ -61,9 +59,6 @@
     display:none;
 }
 
-}
-
-http://webdesign.tutsplus.com/tutorials/site-elements/quick-tip-custom-ios-home-screen-icons-for-your-website/
 
 
 
