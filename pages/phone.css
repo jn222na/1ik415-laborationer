@@ -78,3 +78,6 @@ float:none;
 table,th,td{
     font-size:20px;
 }
+#index_anch{
+    background-image:none;
+}
