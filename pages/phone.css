@@ -1,6 +1,8 @@
 @charset "utf-8";
 
-
+body{
+    font-size:20px;
+}
 #container{
     margin:0;
     width:480px;
@@ -21,13 +23,13 @@ float:none;
 
 #navigation{
     float:none;
-    height:auto;
+    height:450px;
     width:170px;
     max-width:100%;
-        cursor:auto;
+    cursor:auto;
 }    
 #navigation2{
-    height:200px;
+    height:100%;
 	width:300px;
 	max-width:100%;
 }
@@ -50,6 +52,11 @@ float:none;
   list-style-type: none;
   list-style:none;
 }
+.meny li a{
+    padding: 30px 40px;
+    font-size:17px;
+
+}
 .meny li a:hover, meny li:focus{
     cursor:auto;
 }
@@ -59,8 +66,15 @@ float:none;
 #lorem li img{
     display:none;
 }
-
-
-
-
-
+.meny li{
+    background-image:none;
+}
+.meny li a:hover, meny li:focus{
+      background-image:none;
+}
+.link li{
+    font-size:20px;
+}
+table,th,td{
+    font-size:20px;
+}

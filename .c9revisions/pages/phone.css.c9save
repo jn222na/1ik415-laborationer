@@ -300,3 +300,11 @@
 {"ts":1381239132217,"patch":[[{"diffs":[[0,"h:100%;\n"],[1,"    float:none;\n"],[0,"}\n#uppgi"]],"start1":75,"start2":75,"length1":16,"length2":32}]],"length":822,"saved":false}
 {"ts":1381239157741,"patch":[[{"diffs":[[0,"ne;\n"],[-1,"    position:absolute;\n"],[0,"    "]],"start1":528,"start2":528,"length1":31,"length2":8}]],"length":799,"saved":false}
 {"ts":1381239184747,"patch":[[{"diffs":[[0,"ne;\n"],[-1,"    margin-left:270px;\n"],[0,"    "]],"start1":528,"start2":528,"length1":31,"length2":8}]],"length":776,"saved":false}
+{"ts":1381239246267,"patch":[[{"diffs":[[0," height:"],[-1,"2"],[1,"6"],[0,"00px;\n\tw"]],"start1":364,"start2":364,"length1":17,"length2":17}]],"length":776,"saved":false}
+{"ts":1381239257608,"patch":[[{"diffs":[[0," height:"],[-1,"6"],[1,"2"],[0,"00px;\n\tw"]],"start1":364,"start2":364,"length1":17,"length2":17}]],"length":776,"saved":false}
+{"ts":1381239501419,"patch":[[{"diffs":[[0,"e:none;\n"],[1,"}\n.meny li a:hover{\n\n"],[0,"}\n.meny "]],"start1":644,"start2":644,"length1":16,"length2":37}]],"length":797,"saved":false}
+{"ts":1381239515792,"patch":[[{"diffs":[[0,"li a"],[-1,":hover{"],[1,"{\n    padding: 30px 40px;"],[0,"\n\n}\n"]],"start1":660,"start2":660,"length1":15,"length2":33}]],"length":815,"saved":false}
+{"ts":1381239555234,"patch":[[{"diffs":[[0,"t:none;\n"],[-1,"    height:auto;\n"],[0,"    widt"]],"start1":258,"start2":258,"length1":33,"length2":16},{"diffs":[[0,"h:100%;\n"],[-1,"    "],[0,"    curs"]],"start1":295,"start2":295,"length1":20,"length2":16}]],"length":794,"saved":false}
+{"ts":1381239573521,"patch":[[{"diffs":[[0,"    float:none;\n"],[1,"    height:100%;\n"],[0,"    width:170px;"]],"start1":250,"start2":250,"length1":32,"length2":49}]],"length":811,"saved":false}
+{"ts":1381239594984,"patch":[[{"diffs":[[0,"n2{\n"],[-1,"    height:200px;\n"],[0,"\twid"]],"start1":353,"start2":353,"length1":26,"length2":8}]],"length":793,"saved":false}
+{"ts":1381239611979,"patch":[[{"diffs":[[0,"ation2{\n"],[1,"    height:100%;\n"],[0,"\twidth:3"]],"start1":349,"start2":349,"length1":16,"length2":33}]],"length":810,"saved":false}
