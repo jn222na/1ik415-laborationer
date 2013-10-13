@@ -1,42 +1,41 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width:device-width, initial-scale=1.0" />
-	<title>Joakims blogg</title>
-	<link href="../pages/mall.css" rel="stylesheet" type="text/css" media="screen">
-	<link href="../pages/utskrift.css" rel="stylesheet" type="text/css" media="print">
-	<link rel="stylesheet" media="only screen and (max-width:481px)" href="phone.css" />
-	<link rel="apple-touch-icon"/>
-	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <title>Your Website</title>
+    <!-- Länkar html sidan med en css fil för att slippa ha så mycket kod på en sida -->
+    <link href="mall.css" rel="stylesheet" type="text/css">
+    <link href="../pages/utskrift.css" rel="stylesheet" type="text/css" media="print">
+    <link rel="stylesheet" media="only screen and (max-width:481px)" href="phone.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body> <!-- Innehållet på hemsidan -->
+<img src="../pics/2.png" name="BG" width="1680" height="1080" id="BG">
 <div id="container">
-<div id="header">      
-        <h1>Laborationer</h1>
-    
-</div>    
-<div id="navigation" >
-		<h2>Laboration</h2>
-      <div id="navigation2">
+<header>       <!-- Det första besökaren på hemsidan ser -->
+        <h1>HTML 5</h1>
+</header>    
+<nav>
+		<h2>HTML 5</h2>
+      <section>
     	<ul class="meny">
       	    <li><a href="../index.html">Start<br></a></li>
 		</ul>
 		 <ul class="meny">
-            <li><a href="html5.html">Html 5</a></li>
+            <li id="active"><a href="html5.html">Html 5</a></li>
         </ul>
         <ul class="meny"> 
        	    <li><a href="kontakt.html">Kontakt<br></a></li>
        </ul>
        <ul class="meny">
-        	<li id="active"><a href="laboration.html">Laboration<br></a></li>
+        	<li><a href="laboration.html">Laboration<br></a></li>
        </ul>
        <ul class="meny">
         	<li><a href="presentation.html">Presentation</a></li>
        </ul>
-
-    </div>
-</div>
+    </section>
+</nav>
 <div id ="lankar">
     <h2>Laborationer</h2>
     <ul class="link">
@@ -49,75 +48,12 @@
         <li><a href="https://c9.io/jn222na/uppgift-3-3/workspace/index.html">Copycat</a></li>
     </ul>
 </div>
-<div id="uppgift">
-<img src="../pics/logo.png" height="50" width="50" class="miniatyr" alt="Logo">
- <h3 class="stil">Resultat</h3>
-<table border="1" id="tabell">
- <thead>
-  <tr>
-    <th>Laboration</th>
-    <th>Uppgift</th>
-    <th>Status</th>
-    <th>Redovisad</th>
-  </tr>
-</thead>
-  <tfoot>
-        <tr>
-  	<td colspan="4">Laborationsresultat gällande Jocke just nu</td>
-  	    </tr>
-      </tfoot>
-<tbody>      
-<tr>
-    <td rowspan="3">1</td>
-    <td>1</td>
-    <td>Godkänd</td>
-    <td>2011-09-10</td>
-</tr>
-<tr>
-    <td>2</td>
-    <td>Godkänd</td>
-    <td>2011-09-10</td>
-</tr>
-<tr>
-    <td>3</td>
-    <td>Godkänd</td>
-    <td>2011-09-10</td>
-</tr>
-<tr>
-    <td rowspan="6">2</td>
-    <td>1</td>
-    <td>Färdig</td>
-    <td></td>
-</tr>
- <tr>
-    <td>2</td>
-    <td>Färdig</td>
-    <td></td>
-</tr>
-<tr>
-    <td>3</td>
-    <td>Färdig</td>
-    <td></td>
-  </tr>
-<tr>
-    <td>4</td>
-    <td>Färdig</td>
-    <td></td>
-  </tr>
-<tr>
-    <td>5</td>
-    <td>Färdig</td>
-    <td></td>
-  </tr>
-<tr>
-    <td>6</td>
-    <td>Färdig</td>
-    <td></td>
-</tr>
-  </tbody>
-</table>
+<main>
+<iframe  src="//www.youtube.com/embed/tPalCVAGW4o?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
 
-<div id="lorem">
+
+
+<article>
 <img src="../pics/logo.png" height="50" width="50" class="miniatyr" alt="Logo">
 <h3 class="stil">Laboration 4.1 Mobilanpassning</h3>
 <ul>
@@ -134,7 +70,7 @@
 </ul>
 
 <img src="../pics/logo.png" height="50" width="50" class="miniatyr" alt="Logo">
-<h3 class="stil"><br>Uppgift 2.7 En ny bloggpost</h3>
+    <h3 class="stil"><br>Uppgift 2.7 En ny bloggpost</h3>
 <ul>
 	<li class="meny">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies, tortor eu congue pretium, quam metus hendrerit nisl, quis congue nulla ligula eget ligula. In hac habitasse platea dictumst. Proin cursus adipiscing sapien. Mauris sed lobortis tortor. Pellentesque justo quam, tincidunt vel ultrices nec, commodo pretium augue.<img src="../pics/lorem.jpg" height="200" width="230" class="miniatyr" alt="Cat"> Cras pulvinar tellus eget sagittis ultricies. Etiam at nisi in mi dignissim dictum. Sed quis faucibus arcu. Sed malesuada ante eu lectus bibendum sagittis. Suspendisse ultricies ligula augue, eu egestas sapien dignissim in. Sed accumsan odio eget commodo rhoncus. Donec vehicula lacinia ultricies. Nunc rhoncus, purus vestibulum gravida pellentesque, mauris justo fringilla purus, ornare iaculis ante quam a lorem</li>
     </ul>
@@ -147,7 +83,7 @@
 	<h3 class="stil">Laboration 1.2</h3>
 	<ul class="link">
 		<li><a href="presentation.html">Första uppgiften</a></li>
-    </ul>
+</ul>
     <img src="../pics/logo.png" height="50" width="50" class="miniatyr" alt="Logo">
 <ul id="laboration1.4"></ul> <h2>Laboration_2</h2> <!-- Anchor lab_2 -->
     <h3 class="stil">Frågorna ifrån uppgift 1.4</h3>
@@ -165,10 +101,11 @@
    <dt>1.4.6. Vilken är den relativa sökvägen från filen index.html till top.html<br></dt>
     <dd>html/pages/top.html</dd>
  </dl>
- </div> <!--Uppgift slut -->
-</div>
-<div id="footer">
-</div>
-</div> <!-- Slut Container -->
-</body>
+</article> <!--Uppgift slut -->
+    </div>
+          <div id="footer">
+          </div>
+      </main> <!-- Slut Main -->
+      </div>
+    </body>
 </html>

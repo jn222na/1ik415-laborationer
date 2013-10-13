@@ -23,7 +23,7 @@ float:none;
 
 #navigation{
     float:none;
-    height:450px;
+    height:505px;
     width:170px;
     max-width:100%;
     cursor:auto;
@@ -77,4 +77,8 @@ float:none;
 }
 table,th,td{
     font-size:20px;
+}
+#footer iframe{
+    width:480;
+    max-width:100%;
 }

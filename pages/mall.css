@@ -3,6 +3,7 @@
 
 body{
 	Font-family: Calibri, Verdana, Ariel, sans-serif;
+    
 
 }
 /*Håller i flera delar utav koden */
@@ -19,14 +20,14 @@ img, video {
 	
 	
 }
-#bg {
+#BG {
 	width: 100%;
 	position: fixed;
 	z-index: -100;
 	left: 0px;
 	top: 0px;max-width:100%;
 }
-#header {
+#header, header {
 	height: 100px;
 	width: 100%;
 	text-align:center;
@@ -35,24 +36,21 @@ img, video {
 	border-radius: 25px; 
 	margin-bottom:10px;max-width:100%;
 }
-/*#mellan{
-    height:900px;
-    width:100px;
-    background:green;
-}*/
-#container {
+#container, main {
 	height: 960px;
     width:1200px;
     margin:auto;max-width:100%;
+    
 
 }
 /* http://designshack.net/articles/css/inner-shadows-in-css-images-text-and-beyond/ */
 #content {
 	height:600px;
 	width:auto;max-width:100%;
+	
     
 }
-#lankar{
+#lankar, lankar{
     height:1200px;
     text-align:center;
     float:right;
@@ -61,7 +59,7 @@ img, video {
 	border-radius: 25px; 
 	padding:50px;max-width:100%;
 }
-#navigation {
+#navigation, nav {
 	height:1200px;
 	width:200px;
 	float:left;
@@ -72,22 +70,18 @@ img, video {
     cursor:url(../pics/hammare-gro.png),  crosshair;
 }
 
-#navigation2{
+#navigation2, section{
 	height:500px;
 	width:200px;max-width:100%;
 	
 }
-#footer {
-	height:50px;
-	width:100%;  max-width:100%;
-}
-
+/* Stilar menyn */
 .meny {
     padding: 15px 20px;
   list-style-type: none;
   list-style:none;max-width:100%;
 }
-/* Sätter färg på bakgrunden till knappen samt border  */
+    /* Sätter färg på bakgrunden till knappen samt border  */
 .meny li {
   float: left;
   border: 1px solid #333;
@@ -97,7 +91,7 @@ img, video {
   background-repeat:no-repeat;
   background-position:right;max-width:100%;
 }
-/*Plockar bort bl.a underline på länkarna samt ge en schysst delay vid hover */
+    /*Plockar bort bl.a underline på länkarna samt ge en schysst delay vid hover */
 .meny li a {
   display: block;
   text-decoration: none;
@@ -107,7 +101,7 @@ img, video {
   transition-duration: 0.2s; max-width:100%;
 
 }
-/* Ser till att rutan som man rör med musen lyser upp */
+    /* Ser till att rutan som man rör med musen lyser upp */
 .meny li a:hover, meny li:focus{
     background: #356094;
     border: solid 1px #2A4E77;
@@ -116,69 +110,10 @@ img, video {
   background-repeat:no-repeat;
   background-position:right;max-width:100%;
 }
-
+/* ---------------------------------- */
 #active a{
 display: block;
 background-color: #445cba;max-width:100%;
-}
-
-a:link    {color:black;}
-a:visited {color:#000;}
-a:hover   {color:black;}
-a:active  {color:yellow;}
-
-table{
-font-size:20px;
-background-image:url('../pics/123.jpg');max-width:100%;
-}
-.link {
-    padding: 10px 15px;max-width:100%;
-}
-.link li{
-    display:block;
-    font-size:15px;
-    padding-top:10px;max-width:100%;
-}
-
-.link li a:hover{
-    text-decoration:none;max-width:100%;
-}
-.miniatyr{
-	float:left;
-	margin-right:5px;max-width:100%;
-}
-.miniatyrright{
-	float:right;
-	margin-left:5px;max-width:100%;
-	
-}
-.stil {
-	width:400px;
-	margin-left:60px;
-	border-bottom-style:groove;
-	border-color:#CCC;
-	margin-top:20px;max-width:100%;
-}
-.stil2 {
-	width:400px;
-	margin-left:70px;
-	border-bottom-style:groove;
-	border-color:#CCC;
-	margin-top:13px;max-width:100%;
-}
-table,th,td{
-	padding:1px;
-	border: 1px solid #009;
-	border-style:groove;
-	background-color:#CCC;max-width:100%;
-}
-.form{
-    width:300px;
-    display:inline-block;
-	margin-left:70px;
-	border-radius:30px;
-	border:2px solid;
-	border-color:#03F;max-width:100%;
 }
 #uppgift{
     height:900px;
@@ -193,4 +128,93 @@ table,th,td{
 }
 #uppgift h3:first-of-type {
     padding-top:20px;
+}
+/* Stilar lankar  */
+.link {
+    padding: 10px 15px;max-width:100%;
+}
+.link li{
+    display:block;
+    font-size:15px;
+    padding-top:10px;max-width:100%;
+}
+
+.link li a:hover{
+    text-decoration:none;max-width:100%;
+}
+/* ---------------------------------- */
+/* Stilar Bilder */
+.miniatyr{
+	float:left;
+	margin-right:5px;max-width:100%;
+}
+.miniatyrright{
+	float:right;
+	margin-left:5px;max-width:100%;
+	
+}
+/* ---------------------------------- */
+/* Stilar h1-h3 */
+.stil {
+	width:400px;
+	margin-left:60px;
+	border-bottom-style:groove;
+	border-color:#CCC;
+	margin-top:20px;max-width:100%;
+}
+.stil2 {
+	width:400px;
+	margin-left:70px;
+	border-bottom-style:groove;
+	border-color:#CCC;
+	margin-top:13px;max-width:100%;
+}
+/* ---------------------------------- */
+
+.form{
+    width:300px;
+    display:inline-block;
+	margin-left:70px;
+	border-radius:30px;
+	border:2px solid;
+	border-color:#03F;max-width:100%;
+}
+
+a:link    {color:black;}
+a:visited {color:#000;}
+a:hover   {color:black;}
+a:active  {color:yellow;}
+
+table{
+font-size:20px;
+background-image:url('../pics/123.jpg');max-width:100%;
+}
+table,th,td{
+	padding:1px;
+	border: 1px solid #009;
+	border-style:groove;
+	background-color:#CCC;max-width:100%;
+}
+article{
+    height:900px;
+	width:auto;max-width:100%;
+    color:#fff;
+    margin-left:210px;
+}
+article .stil:first-of-type{
+    padding-bottom:15px;
+    padding-top:5px;
+}
+iframe{
+    margin-top:6px;
+    height:40%;
+    width:480px;
+    max-width:100%;
+}
+main{
+        color:#fff;
+        background-image:url("../pics/container.png");
+        background-repeat:no-repeat;
+        background-size:490px 400px;
+        background-position:29% 0;
 }
