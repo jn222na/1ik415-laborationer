@@ -195,10 +195,21 @@ table,th,td{
 	border-style:groove;
 	background-color:#CCC;max-width:100%;
 }
+nav a:link ,aside a:link,header a:link{
+    color:#fff;
+}
+nav a:visited ,aside a:visited ,header a:visited{
+    color:#fff;
+}
+aside{
+        background:none;
+}
+h1,h2{
+        color:white;
+}
 article{
     height:900px;
 	width:auto;max-width:100%;
-    color:#fff;
     margin-left:210px;
 }
 article .stil:first-of-type{

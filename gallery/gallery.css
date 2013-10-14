@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face
+{
+font-family: "font";
+src: url('../font.ttf')format("truetype");
+}
+#container{
+    margin-top:300px;
+}
+.photos img { 
+display:block;
+}
+.photos a{
+    font-family:"font";
+    background:white;
+    float:left;
+	display: inline;
+    padding:10px 20px 30px;
+    margin:0px 15px 30px;
+    -webkit-box-shadow: 0px 5px 7px  #888;
+    -moz-box-shadow: 0px 5px 7px  #888;
+    box-shadow: 0px 5px 7px #888;
+    text-align:center;
+    z-index:0;
+	position:relative;
+	
+}
+.photos a:hover, a:focus{
+    
+	-webkit-transform: rotate(0deg); 
+	-moz-transform: rotate(0deg);
+     transform: rotate(0deg);
+     z-index:10;
+     -webkit-box-shadow: 0 10px 20px #888;
+	-moz-box-shadow: 0 10px 20px #888;
+     box-shadow: 0 10px 20px #888;
+
+}
+.photos a:after {
+	color: #333;
+	font-size: 20px;
+	content: attr(title);
+}
+.photos a:nth-child(1){
+
+        -webkit-transform: rotate(5deg);  
+	-moz-transform: rotate(5deg); 
+	transform: rotate(5deg);
+}
+.photos a:nth-child(2){
+    -webkit-transform: rotate(-10deg);  
+	-moz-transform: rotate(-10deg); 
+	transform: rotate(-10deg); 
+}
+.photos a:nth-child(3){
+        -webkit-transform: rotate(10deg);  
+	-moz-transform: rotate(10deg); 
+	transform: rotate(10deg); 
+
+
+}
+.photos a:nth-child(4){
+        -webkit-transform: rotate(-25deg);  
+	-moz-transform: rotate(-25deg); 
+	transform: rotate(-25deg); 
+
+}
+.photos a:nth-child(5){
+-webkit-transform: rotate(-18deg);  
+	-moz-transform: rotate(-18deg); 
+	transform: rotate(-18deg); 
+}
