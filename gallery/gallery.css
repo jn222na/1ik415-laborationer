@@ -7,6 +7,7 @@ src: url('../font.ttf')format("truetype");
 }
 #container{
     margin-top:300px;
+    margin-left:100px;
 }
 .photos img { 
 display:block;
@@ -24,23 +25,17 @@ display:block;
     text-align:center;
     z-index:0;
 	position:relative;
+	-webkit-transition: all .15s linear;
+	-moz-transition: all .15s linear;
+	transition: all .15s linear;
 	
 }
-.photos a:hover, a:focus{
-    
-	-webkit-transform: rotate(0deg); 
-	-moz-transform: rotate(0deg);
-     transform: rotate(0deg);
-     z-index:10;
-     -webkit-box-shadow: 0 10px 20px #888;
-	-moz-box-shadow: 0 10px 20px #888;
-     box-shadow: 0 10px 20px #888;
 
-}
 .photos a:after {
 	color: #333;
 	font-size: 20px;
 	content: attr(title);
+	position:relative;
 }
 .photos a:nth-child(1){
 
@@ -70,4 +65,16 @@ display:block;
 -webkit-transform: rotate(-18deg);  
 	-moz-transform: rotate(-18deg); 
 	transform: rotate(-18deg); 
+}
+.photos a:hover, a:focus{
+     z-index:10;
+     -webkit-box-shadow: 0 10px 20px #888;
+	-moz-box-shadow: 0 10px 20px #888;
+     box-shadow: 0 10px 20px #888;
+     -webkit-transform: rotate(0deg);  
+	-moz-transform: rotate(0deg); 
+	transform: rotate(0deg);
+     -webkit-transform: scale(1.5);
+     -moz-transform: scale(1.5);
+     transform: scale(1.5);
 }
